@@ -1,0 +1,10 @@
+source_clips/
+sounds/*.wav
+sounds/*.flac
+out/
+tmp/
+models/
+.env
+.DS_Store
+*.part
+__pycache__/

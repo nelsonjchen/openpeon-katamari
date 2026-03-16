@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "cesp_version": "1.0",
+    "name": "katamari-damacy",
+    "display_name": "Katamari Damacy",
+    "version": "0.2.0",
+    "description": "An OpenPeon-compatible Katamari Damacy sound pack built from curated in-repo source clips.",
+    "author": {
+      "name": "Nelson"
+    },
+    "license": "UNLICENSED",
+    "language": "en"
+  },
+  "sounds": [
+    {
+      "id": "start-cosmic-wail",
+      "slug": "session-start-cosmic-wail",
+      "label": "Cosmic wail",
+      "source": "source_clips/curated/start/late_bank_0014.wav"
+    },
+    {
+      "id": "start-quick-squeal",
+      "slug": "session-start-quick-squeal",
+      "label": "Quick squeal",
+      "source": "source_clips/curated/start/late_bank_0019.wav"
+    },
+    {
+      "id": "start-katamari-groove",
+      "slug": "session-start-katamari-groove",
+      "label": "Katamari groove",
+      "source": "source_clips/curated/start/late_bank_0040.wav"
+    },
+    {
+      "id": "start-katamari-groove-alt",
+      "slug": "session-start-katamari-groove-alt",
+      "label": "Katamari groove alt",
+      "source": "source_clips/curated/start/late_bank_0046.wav"
+    },
+    {
+      "id": "ack-squeak-pop",
+      "slug": "task-ack-squeak-pop",
+      "label": "Squeak pop",
+      "source": "source_clips/curated/acknowledge/late_bank_0022.wav"
+    },
+    {
+      "id": "ack-quick-wow",
+      "slug": "task-ack-quick-wow",
+      "label": "Quick wow",
+      "source": "source_clips/curated/acknowledge/late_bank_0055.wav"
+    },
+    {
+      "id": "ack-gigigi-burst",
+      "slug": "task-ack-gigigi-burst",
+      "label": "Gi-gi-gi burst",
+      "source": "source_clips/curated/error/late_bank_0068.wav"
+    },
+    {
+      "id": "ack-thats-my",
+      "slug": "task-ack-thats-my",
+      "label": "That's my...",
+      "source": "source_clips/curated/acknowledge/late_bank_0208.wav"
+    },
+    {
+      "id": "progress-soft-hum",
+      "slug": "task-progress-soft-hum",
+      "label": "Soft hum",
+      "source": "source_clips/curated/acknowledge/late_bank_0312.wav"
+    },
+    {
+      "id": "progress-boing-loop",
+      "slug": "task-progress-boing-loop",
+      "label": "Boing loop",
+      "source": "source_clips/curated/acknowledge/late_bank_0282_0-1279.wav"
+    },
+    {
+      "id": "progress-pulse-run",
+      "slug": "task-progress-pulse-run",
+      "label": "Pulse run",
+      "source": "source_clips/curated/acknowledge/late_bank_0327.wav"
+    },
+    {
+      "id": "complete-affirming-hmm",
+      "slug": "task-complete-affirming-hmm",
+      "label": "Affirming mm-hmm",
+      "source": "source_clips/curated/complete/late_bank_0015.wav"
+    },
+    {
+      "id": "complete-chime",
+      "slug": "task-complete-chime",
+      "label": "Completion chime",
+      "source": "source_clips/curated/complete/late_bank_0172.wav"
+    },
+    {
+      "id": "complete-fanfare",
+      "slug": "task-complete-fanfare",
+      "label": "Mini fanfare",
+      "source": "source_clips/curated/complete/late_bank_0175.wav"
+    },
+    {
+      "id": "error-wail",
+      "slug": "task-error-wail",
+      "label": "Panicked wail",
+      "source": "source_clips/curated/error/late_bank_0217.wav"
+    },
+    {
+      "id": "error-overload",
+      "slug": "task-error-overload",
+      "label": "Overload spiral",
+      "source": "source_clips/curated/error/late_bank_0244.wav"
+    },
+    {
+      "id": "error-yeah-shout",
+      "slug": "task-error-yeah-shout",
+      "label": "Yeah shout",
+      "source": "source_clips/curated/error/late_bank_0246.wav"
+    },
+    {
+      "id": "error-shock-yelp",
+      "slug": "task-error-shock-yelp",
+      "label": "Shock yelp",
+      "source": "source_clips/curated/error/late_bank_0266.wav"
+    },
+    {
+      "id": "error-alarm-wow",
+      "slug": "task-error-alarm-wow",
+      "label": "Alarm wow",
+      "source": "source_clips/curated/error/late_bank_0260.wav"
+    },
+    {
+      "id": "input-door-cue",
+      "slug": "input-required-door-cue",
+      "label": "Door cue",
+      "source": "source_clips/curated/input.required/late_bank_0011.wav"
+    },
+    {
+      "id": "input-signal-tone",
+      "slug": "input-required-signal-tone",
+      "label": "Signal tone",
+      "source": "source_clips/curated/input.required/late_bank_0016.wav"
+    },
+    {
+      "id": "input-ring-prompt",
+      "slug": "input-required-ring-prompt",
+      "label": "Ring prompt",
+      "source": "source_clips/curated/input.required/late_bank_0087.wav"
+    },
+    {
+      "id": "input-horn-prompt",
+      "slug": "input-required-horn-prompt",
+      "label": "Horn prompt",
+      "source": "source_clips/curated/input.required/late_bank_0310.wav"
+    }
+  ],
+  "categories": {
+    "session.start": [
+      "start-katamari-groove",
+      "start-katamari-groove-alt",
+      "start-cosmic-wail",
+      "start-quick-squeal"
+    ],
+    "task.acknowledge": [
+      "ack-squeak-pop",
+      "ack-quick-wow",
+      "ack-gigigi-burst",
+      "ack-thats-my"
+    ],
+    "task.progress": [
+      "progress-soft-hum",
+      "progress-boing-loop",
+      "progress-pulse-run",
+      "ack-gigigi-burst"
+    ],
+    "task.complete": [
+      "complete-affirming-hmm",
+      "complete-chime",
+      "complete-fanfare"
+    ],
+    "task.error": [
+      "error-overload",
+      "error-wail",
+      "error-shock-yelp",
+      "error-alarm-wow",
+      "error-yeah-shout"
+    ],
+    "input.required": [
+      "input-door-cue",
+      "input-signal-tone",
+      "input-ring-prompt",
+      "input-horn-prompt"
+    ],
+    "resource.limit": [
+      "error-overload",
+      "error-alarm-wow",
+      "input-signal-tone"
+    ],
+    "session.end": [
+      "complete-affirming-hmm",
+      "complete-fanfare",
+      "ack-quick-wow"
+    ]
+  }
+}

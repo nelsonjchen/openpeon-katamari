@@ -1,0 +1,196 @@
+{
+  "cesp_version": "1.0",
+  "name": "katamari-damacy",
+  "display_name": "Katamari Damacy",
+  "version": "0.2.0",
+  "description": "An OpenPeon-compatible Katamari Damacy sound pack built from curated in-repo source clips.",
+  "author": {
+    "name": "Nelson"
+  },
+  "license": "UNLICENSED",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/session-start-katamari-groove.mp3",
+          "label": "Katamari groove",
+          "sha256": "c4b6de1db600741ff06d91a15d6a9d88a097a432f7c56d853e74b67935801e1e"
+        },
+        {
+          "file": "sounds/session-start-katamari-groove-alt.mp3",
+          "label": "Katamari groove alt",
+          "sha256": "a1e5d2e67f3a4d19a6479a434288aef08c2d617a89a93d93c07e87f4183e51b2"
+        },
+        {
+          "file": "sounds/session-start-cosmic-wail.mp3",
+          "label": "Cosmic wail",
+          "sha256": "e3b5e83f34ed1a70f04b6ea85b300bbb087ed756c86294c56e10b43a632ad67a"
+        },
+        {
+          "file": "sounds/session-start-quick-squeal.mp3",
+          "label": "Quick squeal",
+          "sha256": "771a222bab6c263f9cb9c3e733f2014d0b2093d1e55a5244ca0cfc5fed8ddfc9"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/task-ack-squeak-pop.mp3",
+          "label": "Squeak pop",
+          "sha256": "0bbda9a807afbf6f4fffdeff72f3e9c0903a5cc2393ae7d55529409f737cb603"
+        },
+        {
+          "file": "sounds/task-ack-quick-wow.mp3",
+          "label": "Quick wow",
+          "sha256": "9369b3f50db852d918757a52f8a5764a54efaca95309fba51f31ce156b6de3b7"
+        },
+        {
+          "file": "sounds/task-ack-gigigi-burst.mp3",
+          "label": "Gi-gi-gi burst",
+          "sha256": "5b123323f784aa026bb57a10ee6b12c59e45b2bf2940a3a8ec6f6430a5b2f5d0"
+        },
+        {
+          "file": "sounds/task-ack-thats-my.mp3",
+          "label": "That's my...",
+          "sha256": "1a9488d2e0184b4df3f2e6f4f285350367f4857f501e8fd4fd9d22e72588a1f2"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/task-progress-soft-hum.mp3",
+          "label": "Soft hum",
+          "sha256": "6189fb83232dac1c5d6a2c31ef5ff2bfa8d8706ff6043d6557739db9b2f624ea"
+        },
+        {
+          "file": "sounds/task-progress-boing-loop.mp3",
+          "label": "Boing loop",
+          "sha256": "26155fd79a34e83d3cea18019761d5ae778a3696f4e8481ba23ec27aa9a591ea"
+        },
+        {
+          "file": "sounds/task-progress-pulse-run.mp3",
+          "label": "Pulse run",
+          "sha256": "8351e1f9d31fb9e3f36917c113c401b5c943b865e39beb5e38e295ee84ada643"
+        },
+        {
+          "file": "sounds/task-ack-gigigi-burst.mp3",
+          "label": "Gi-gi-gi burst",
+          "sha256": "5b123323f784aa026bb57a10ee6b12c59e45b2bf2940a3a8ec6f6430a5b2f5d0"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/task-complete-affirming-hmm.mp3",
+          "label": "Affirming mm-hmm",
+          "sha256": "de711e69e766d57234f46ea4a34d11b217ccd886f429559ce5fe26f8acabeda9"
+        },
+        {
+          "file": "sounds/task-complete-chime.mp3",
+          "label": "Completion chime",
+          "sha256": "c660e6354614e8567258691e43348721bc88aa7680335fab2094b964e0db8f72"
+        },
+        {
+          "file": "sounds/task-complete-fanfare.mp3",
+          "label": "Mini fanfare",
+          "sha256": "2b22009d548908ca991e9b383d012807c1d0cef66992e8ea3d279f125a65c465"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/task-error-overload.mp3",
+          "label": "Overload spiral",
+          "sha256": "8ba0be27c497e9147e4e5c6f5bad34ecf60a6f452adf70e3c7ce311bd2487a96"
+        },
+        {
+          "file": "sounds/task-error-wail.mp3",
+          "label": "Panicked wail",
+          "sha256": "bd2de6102959e148ed4fbfce11024c42593753332ae5c9b4c96714240f0f20eb"
+        },
+        {
+          "file": "sounds/task-error-shock-yelp.mp3",
+          "label": "Shock yelp",
+          "sha256": "d31f5b1994a5763ec26b0cbaafc997cf0713b766f2b7f68f5c583b1a2eed59fb"
+        },
+        {
+          "file": "sounds/task-error-alarm-wow.mp3",
+          "label": "Alarm wow",
+          "sha256": "198d95946ce67a3e01a09ba6487e633098d568a7b76db6881deb0c965d912729"
+        },
+        {
+          "file": "sounds/task-error-yeah-shout.mp3",
+          "label": "Yeah shout",
+          "sha256": "dfe29c0a4af40639c5c8dd8a9a1391dcd7587af20920653fe9f5d6becc2fd0a7"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input-required-door-cue.mp3",
+          "label": "Door cue",
+          "sha256": "c53b28f516933febe6c6d41bed0206831f2320d02a465f347b5697e5b1370964"
+        },
+        {
+          "file": "sounds/input-required-signal-tone.mp3",
+          "label": "Signal tone",
+          "sha256": "d8b67809ba672aca7644c7ce7a7e953352f0848e29832a3280e878ec891c5350"
+        },
+        {
+          "file": "sounds/input-required-ring-prompt.mp3",
+          "label": "Ring prompt",
+          "sha256": "6a711cba947a162af1c9a7faff4f1a724c62b6c8fda53b45cc8a225d55061dd9"
+        },
+        {
+          "file": "sounds/input-required-horn-prompt.mp3",
+          "label": "Horn prompt",
+          "sha256": "fa1b2a516bd945fed0ededab66a640d7a3750a9f9eb3941161c441500e3c6a41"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/task-error-overload.mp3",
+          "label": "Overload spiral",
+          "sha256": "8ba0be27c497e9147e4e5c6f5bad34ecf60a6f452adf70e3c7ce311bd2487a96"
+        },
+        {
+          "file": "sounds/task-error-alarm-wow.mp3",
+          "label": "Alarm wow",
+          "sha256": "198d95946ce67a3e01a09ba6487e633098d568a7b76db6881deb0c965d912729"
+        },
+        {
+          "file": "sounds/input-required-signal-tone.mp3",
+          "label": "Signal tone",
+          "sha256": "d8b67809ba672aca7644c7ce7a7e953352f0848e29832a3280e878ec891c5350"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/task-complete-affirming-hmm.mp3",
+          "label": "Affirming mm-hmm",
+          "sha256": "de711e69e766d57234f46ea4a34d11b217ccd886f429559ce5fe26f8acabeda9"
+        },
+        {
+          "file": "sounds/task-complete-fanfare.mp3",
+          "label": "Mini fanfare",
+          "sha256": "2b22009d548908ca991e9b383d012807c1d0cef66992e8ea3d279f125a65c465"
+        },
+        {
+          "file": "sounds/task-ack-quick-wow.mp3",
+          "label": "Quick wow",
+          "sha256": "9369b3f50db852d918757a52f8a5764a54efaca95309fba51f31ce156b6de3b7"
+        }
+      ]
+    }
+  }
+}

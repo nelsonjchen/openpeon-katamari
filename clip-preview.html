@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katamari Damacy Preview</title>
+    <style>
+      :root {
+        --bg-top: #fff4d6;
+        --bg-bottom: #f2ffcc;
+        --ink: #1d2140;
+        --muted: #5f6380;
+        --panel: rgba(255, 255, 255, 0.86);
+        --line: rgba(29, 33, 64, 0.1);
+        --accent: #ef6b2e;
+        --accent-2: #34b87c;
+        --shadow: 0 18px 44px rgba(86, 72, 39, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(239, 107, 46, 0.22), transparent 30%),
+          radial-gradient(circle at top right, rgba(52, 184, 124, 0.2), transparent 32%),
+          linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+      }
+
+      main {
+        width: min(1100px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 36px 0 56px;
+      }
+
+      header {
+        margin-bottom: 28px;
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2rem, 5vw, 3.6rem);
+        line-height: 0.98;
+        letter-spacing: -0.04em;
+      }
+
+      header p {
+        margin: 0;
+        max-width: 760px;
+        color: var(--muted);
+      }
+
+      .category {
+        margin-bottom: 22px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .category-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+
+      .category-head h2 {
+        margin: 0;
+        font-size: 1.25rem;
+      }
+
+      .category-head span,
+      .sound-file {
+        color: var(--muted);
+      }
+
+      .sound-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 12px;
+      }
+
+      .sound-card {
+        padding: 14px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(29, 33, 64, 0.08);
+      }
+
+      .sound-label {
+        margin: 0 0 6px;
+        font-weight: 700;
+      }
+
+      .sound-file {
+        margin: 0 0 12px;
+        font-size: 0.86rem;
+        word-break: break-word;
+      }
+
+      audio {
+        width: 100%;
+        height: 40px;
+        accent-color: var(--accent-2);
+      }
+
+      @media (max-width: 640px) {
+        main {
+          width: min(100vw - 20px, 1100px);
+          padding-top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Katamari Damacy</h1>
+        <p>An OpenPeon-compatible Katamari Damacy sound pack built from curated in-repo source clips.</p>
+      </header>
+
+      <section class="category">
+        <div class="category-head">
+          <h2>session.start</h2>
+          <span>4 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Katamari groove</p>
+          <p class="sound-file">sounds/session-start-katamari-groove.mp3</p>
+          <audio controls preload="none" src="sounds/session-start-katamari-groove.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Katamari groove alt</p>
+          <p class="sound-file">sounds/session-start-katamari-groove-alt.mp3</p>
+          <audio controls preload="none" src="sounds/session-start-katamari-groove-alt.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Cosmic wail</p>
+          <p class="sound-file">sounds/session-start-cosmic-wail.mp3</p>
+          <audio controls preload="none" src="sounds/session-start-cosmic-wail.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Quick squeal</p>
+          <p class="sound-file">sounds/session-start-quick-squeal.mp3</p>
+          <audio controls preload="none" src="sounds/session-start-quick-squeal.mp3"></audio>
+        </article>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category-head">
+          <h2>task.acknowledge</h2>
+          <span>4 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Squeak pop</p>
+          <p class="sound-file">sounds/task-ack-squeak-pop.mp3</p>
+          <audio controls preload="none" src="sounds/task-ack-squeak-pop.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Quick wow</p>
+          <p class="sound-file">sounds/task-ack-quick-wow.mp3</p>
+          <audio controls preload="none" src="sounds/task-ack-quick-wow.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Gi-gi-gi burst</p>
+          <p class="sound-file">sounds/task-ack-gigigi-burst.mp3</p>
+          <audio controls preload="none" src="sounds/task-ack-gigigi-burst.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">That's my...</p>
+          <p class="sound-file">sounds/task-ack-thats-my.mp3</p>
+          <audio controls preload="none" src="sounds/task-ack-thats-my.mp3"></audio>
+        </article>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category-head">
+          <h2>task.progress</h2>
+          <span>4 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Soft hum</p>
+          <p class="sound-file">sounds/task-progress-soft-hum.mp3</p>
+          <audio controls preload="none" src="sounds/task-progress-soft-hum.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Boing loop</p>
+          <p class="sound-file">sounds/task-progress-boing-loop.mp3</p>
+          <audio controls preload="none" src="sounds/task-progress-boing-loop.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Pulse run</p>
+          <p class="sound-file">sounds/task-progress-pulse-run.mp3</p>
+          <audio controls preload="none" src="sounds/task-progress-pulse-run.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Gi-gi-gi burst</p>
+          <p class="sound-file">sounds/task-ack-gigigi-burst.mp3</p>
+          <audio controls preload="none" src="sounds/task-ack-gigigi-burst.mp3"></audio>
+        </article>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category-head">
+          <h2>task.complete</h2>
+          <span>3 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Affirming mm-hmm</p>
+          <p class="sound-file">sounds/task-complete-affirming-hmm.mp3</p>
+          <audio controls preload="none" src="sounds/task-complete-affirming-hmm.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Completion chime</p>
+          <p class="sound-file">sounds/task-complete-chime.mp3</p>
+          <audio controls preload="none" src="sounds/task-complete-chime.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Mini fanfare</p>
+          <p class="sound-file">sounds/task-complete-fanfare.mp3</p>
+          <audio controls preload="none" src="sounds/task-complete-fanfare.mp3"></audio>
+        </article>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category-head">
+          <h2>task.error</h2>
+          <span>5 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Overload spiral</p>
+          <p class="sound-file">sounds/task-error-overload.mp3</p>
+          <audio controls preload="none" src="sounds/task-error-overload.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Panicked wail</p>
+          <p class="sound-file">sounds/task-error-wail.mp3</p>
+          <audio controls preload="none" src="sounds/task-error-wail.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Shock yelp</p>
+          <p class="sound-file">sounds/task-error-shock-yelp.mp3</p>
+          <audio controls preload="none" src="sounds/task-error-shock-yelp.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Alarm wow</p>
+          <p class="sound-file">sounds/task-error-alarm-wow.mp3</p>
+          <audio controls preload="none" src="sounds/task-error-alarm-wow.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Yeah shout</p>
+          <p class="sound-file">sounds/task-error-yeah-shout.mp3</p>
+          <audio controls preload="none" src="sounds/task-error-yeah-shout.mp3"></audio>
+        </article>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category-head">
+          <h2>input.required</h2>
+          <span>4 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Door cue</p>
+          <p class="sound-file">sounds/input-required-door-cue.mp3</p>
+          <audio controls preload="none" src="sounds/input-required-door-cue.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Signal tone</p>
+          <p class="sound-file">sounds/input-required-signal-tone.mp3</p>
+          <audio controls preload="none" src="sounds/input-required-signal-tone.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Ring prompt</p>
+          <p class="sound-file">sounds/input-required-ring-prompt.mp3</p>
+          <audio controls preload="none" src="sounds/input-required-ring-prompt.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Horn prompt</p>
+          <p class="sound-file">sounds/input-required-horn-prompt.mp3</p>
+          <audio controls preload="none" src="sounds/input-required-horn-prompt.mp3"></audio>
+        </article>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category-head">
+          <h2>resource.limit</h2>
+          <span>3 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Overload spiral</p>
+          <p class="sound-file">sounds/task-error-overload.mp3</p>
+          <audio controls preload="none" src="sounds/task-error-overload.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Alarm wow</p>
+          <p class="sound-file">sounds/task-error-alarm-wow.mp3</p>
+          <audio controls preload="none" src="sounds/task-error-alarm-wow.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Signal tone</p>
+          <p class="sound-file">sounds/input-required-signal-tone.mp3</p>
+          <audio controls preload="none" src="sounds/input-required-signal-tone.mp3"></audio>
+        </article>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category-head">
+          <h2>session.end</h2>
+          <span>3 sounds</span>
+        </div>
+        <div class="sound-grid">
+
+        <article class="sound-card">
+          <p class="sound-label">Affirming mm-hmm</p>
+          <p class="sound-file">sounds/task-complete-affirming-hmm.mp3</p>
+          <audio controls preload="none" src="sounds/task-complete-affirming-hmm.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Mini fanfare</p>
+          <p class="sound-file">sounds/task-complete-fanfare.mp3</p>
+          <audio controls preload="none" src="sounds/task-complete-fanfare.mp3"></audio>
+        </article>
+
+        <article class="sound-card">
+          <p class="sound-label">Quick wow</p>
+          <p class="sound-file">sounds/task-ack-quick-wow.mp3</p>
+          <audio controls preload="none" src="sounds/task-ack-quick-wow.mp3"></audio>
+        </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
