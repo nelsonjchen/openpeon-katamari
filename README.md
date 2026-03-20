@@ -1,6 +1,6 @@
-# Katamari Damacy
+# Katamari Damacy OpenPeon Sound Pack
 
-`Katamari Damacy` is a Katamari Damacy sound pack.
+`Katamari Damacy` is a Katamari Damacy sound pack for OpenPeon and Peon Ping.
 
 This repo now focuses on the deliverable pack itself:
 
