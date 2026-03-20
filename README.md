@@ -1,6 +1,6 @@
 # Katamari Damacy
 
-`Katamari Damacy` is an OpenPeon-compatible sound pack built from curated local source clips in [`source_clips/`](source_clips).
+`Katamari Damacy` is an OpenPeon-compatible sound pack built from curated local source clips.
 
 This repo now focuses on the deliverable pack itself:
 
@@ -23,12 +23,14 @@ That command:
 - refreshes [`openpeon.json`](openpeon.json)
 - regenerates [`clip-preview.html`](clip-preview.html)
 
+The rebuild flow expects a local `source_clips/` tree that is intentionally not tracked in Git. If you only want to use or distribute the pack, the tracked deliverables are already present in this repository.
+
 ## Layout
 
 - [`config/pack.json`](config/pack.json): pack metadata, curated selections, and category mapping
 - [`scripts/build_pack.py`](scripts/build_pack.py): packaging script
 - [`sounds/`](sounds): shipped pack assets
-- [`source_clips/`](source_clips): local raw and curated source material, intentionally ignored by Git
+- `source_clips/`: local raw and curated source material, intentionally ignored by Git
 
 ## Notes
 
