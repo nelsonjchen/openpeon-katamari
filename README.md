@@ -35,4 +35,5 @@ The rebuild flow expects a local `source_clips/` tree that is intentionally not 
 ## Notes
 
 - The tracked deliverable is the OpenPeon pack, not the larger source library.
+- Pack metadata is licensed as `CC-BY-NC-4.0`.
 - Labels in the manifest are short descriptive names for the curated clips rather than full transcriptions.
