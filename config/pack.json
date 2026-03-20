@@ -3,7 +3,7 @@
     "cesp_version": "1.0",
     "name": "katamari-damacy",
     "display_name": "Katamari Damacy",
-    "version": "0.2.0",
+    "version": "0.4.0",
     "description": "An OpenPeon-compatible Katamari Damacy sound pack built from curated in-repo source clips.",
     "author": {
       "name": "Nelson"
@@ -37,6 +37,24 @@
       "source": "source_clips/curated/start/late_bank_0046.wav"
     },
     {
+      "id": "start-opening-chirp",
+      "slug": "session-start-opening-chirp",
+      "label": "Opening chirp",
+      "source": "source_clips/curated/start/late_bank_0637.wav"
+    },
+    {
+      "id": "start-load-chant",
+      "slug": "session-start-load-chant",
+      "label": "Load chant",
+      "source": "source_clips/curated/start/b01_load_0-6130.wav"
+    },
+    {
+      "id": "start-king-horn",
+      "slug": "session-start-king-horn",
+      "label": "King horn",
+      "source": "source_clips/curated/start/b02_king_0-2537.wav"
+    },
+    {
       "id": "ack-squeak-pop",
       "slug": "task-ack-squeak-pop",
       "label": "Squeak pop",
@@ -45,7 +63,7 @@
     {
       "id": "ack-quick-wow",
       "slug": "task-ack-quick-wow",
-      "label": "Quick wow",
+      "label": "Cat pickup",
       "source": "source_clips/curated/acknowledge/late_bank_0055.wav"
     },
     {
@@ -59,6 +77,12 @@
       "slug": "task-ack-thats-my",
       "label": "That's my...",
       "source": "source_clips/curated/acknowledge/late_bank_0208.wav"
+    },
+    {
+      "id": "ack-record-scratch",
+      "slug": "task-ack-record-scratch",
+      "label": "Record scratch",
+      "source": "source_clips/curated/acknowledge/common6.wav"
     },
     {
       "id": "progress-soft-hum",
@@ -97,6 +121,18 @@
       "source": "source_clips/curated/complete/late_bank_0175.wav"
     },
     {
+      "id": "complete-yahoo",
+      "slug": "task-complete-yahoo",
+      "label": "Yahoo!",
+      "source": "source_clips/curated/complete/late_bank_0581.wav"
+    },
+    {
+      "id": "complete-attract-theme",
+      "slug": "task-complete-attract-theme",
+      "label": "Attract theme",
+      "source": "source_clips/curated/complete/b06_attract.wav"
+    },
+    {
       "id": "error-wail",
       "slug": "task-error-wail",
       "label": "Panicked wail",
@@ -129,7 +165,7 @@
     {
       "id": "input-door-cue",
       "slug": "input-required-door-cue",
-      "label": "Door cue",
+      "label": "Katamari impact",
       "source": "source_clips/curated/input.required/late_bank_0011.wav"
     },
     {
@@ -149,20 +185,47 @@
       "slug": "input-required-horn-prompt",
       "label": "Horn prompt",
       "source": "source_clips/curated/input.required/late_bank_0310.wav"
+    },
+    {
+      "id": "input-record-scratch",
+      "slug": "input-required-record-scratch",
+      "label": "Record scratch",
+      "source": "source_clips/curated/input.required/game27.wav"
+    },
+    {
+      "id": "end-ending-yelp",
+      "slug": "session-end-ending-yelp",
+      "label": "Ending yelp",
+      "source": "source_clips/curated/end/game13.wav"
+    },
+    {
+      "id": "end-game-over-sting",
+      "slug": "session-end-game-over-sting",
+      "label": "Game over sting",
+      "source": "source_clips/curated/end/gameover 0.wav"
+    },
+    {
+      "id": "end-stop-that",
+      "slug": "session-end-stop-that",
+      "label": "Ooh, stop that.",
+      "source": "source_clips/curated/end/late_bank_0571_1620-3126.wav"
     }
   ],
   "categories": {
     "session.start": [
+      "start-load-chant",
+      "start-king-horn",
       "start-katamari-groove",
       "start-katamari-groove-alt",
-      "start-cosmic-wail",
+      "start-opening-chirp",
       "start-quick-squeal"
     ],
     "task.acknowledge": [
       "ack-squeak-pop",
       "ack-quick-wow",
       "ack-gigigi-burst",
-      "ack-thats-my"
+      "ack-thats-my",
+      "ack-record-scratch"
     ],
     "task.progress": [
       "progress-soft-hum",
@@ -171,9 +234,12 @@
       "ack-gigigi-burst"
     ],
     "task.complete": [
+      "start-cosmic-wail",
       "complete-affirming-hmm",
       "complete-chime",
-      "complete-fanfare"
+      "complete-fanfare",
+      "complete-yahoo",
+      "complete-attract-theme"
     ],
     "task.error": [
       "error-overload",
@@ -186,7 +252,8 @@
       "input-door-cue",
       "input-signal-tone",
       "input-ring-prompt",
-      "input-horn-prompt"
+      "input-horn-prompt",
+      "input-record-scratch"
     ],
     "resource.limit": [
       "error-overload",
@@ -194,9 +261,9 @@
       "input-signal-tone"
     ],
     "session.end": [
-      "complete-affirming-hmm",
-      "complete-fanfare",
-      "ack-quick-wow"
+      "end-stop-that",
+      "end-ending-yelp",
+      "end-game-over-sting"
     ]
   }
 }

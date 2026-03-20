@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "katamari-damacy",
   "display_name": "Katamari Damacy",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "An OpenPeon-compatible Katamari Damacy sound pack built from curated in-repo source clips.",
   "author": {
     "name": "Nelson"
@@ -12,6 +12,16 @@
   "categories": {
     "session.start": {
       "sounds": [
+        {
+          "file": "sounds/session-start-load-chant.mp3",
+          "label": "Load chant",
+          "sha256": "ad50dab7261106d157dd9dd16e3f3ef2dce74e6665dea1fa2e934b0ab52fb7e4"
+        },
+        {
+          "file": "sounds/session-start-king-horn.mp3",
+          "label": "King horn",
+          "sha256": "7a48c6011af719284c6ae2d711a3b9de560de66f08da7aa997abe973f0bc629f"
+        },
         {
           "file": "sounds/session-start-katamari-groove.mp3",
           "label": "Katamari groove",
@@ -23,9 +33,9 @@
           "sha256": "a1e5d2e67f3a4d19a6479a434288aef08c2d617a89a93d93c07e87f4183e51b2"
         },
         {
-          "file": "sounds/session-start-cosmic-wail.mp3",
-          "label": "Cosmic wail",
-          "sha256": "e3b5e83f34ed1a70f04b6ea85b300bbb087ed756c86294c56e10b43a632ad67a"
+          "file": "sounds/session-start-opening-chirp.mp3",
+          "label": "Opening chirp",
+          "sha256": "a404ef4363f634e698b1a0d8119340da8fa9ab66541d12929969b27ba295834b"
         },
         {
           "file": "sounds/session-start-quick-squeal.mp3",
@@ -43,7 +53,7 @@
         },
         {
           "file": "sounds/task-ack-quick-wow.mp3",
-          "label": "Quick wow",
+          "label": "Cat pickup",
           "sha256": "9369b3f50db852d918757a52f8a5764a54efaca95309fba51f31ce156b6de3b7"
         },
         {
@@ -55,6 +65,11 @@
           "file": "sounds/task-ack-thats-my.mp3",
           "label": "That's my...",
           "sha256": "1a9488d2e0184b4df3f2e6f4f285350367f4857f501e8fd4fd9d22e72588a1f2"
+        },
+        {
+          "file": "sounds/task-ack-record-scratch.mp3",
+          "label": "Record scratch",
+          "sha256": "b8bfb353556b5ee3ded13cb3662e935bb06ce014bd6acb93eaf3e412ff94a419"
         }
       ]
     },
@@ -85,6 +100,11 @@
     "task.complete": {
       "sounds": [
         {
+          "file": "sounds/session-start-cosmic-wail.mp3",
+          "label": "Cosmic wail",
+          "sha256": "e3b5e83f34ed1a70f04b6ea85b300bbb087ed756c86294c56e10b43a632ad67a"
+        },
+        {
           "file": "sounds/task-complete-affirming-hmm.mp3",
           "label": "Affirming mm-hmm",
           "sha256": "de711e69e766d57234f46ea4a34d11b217ccd886f429559ce5fe26f8acabeda9"
@@ -98,6 +118,16 @@
           "file": "sounds/task-complete-fanfare.mp3",
           "label": "Mini fanfare",
           "sha256": "2b22009d548908ca991e9b383d012807c1d0cef66992e8ea3d279f125a65c465"
+        },
+        {
+          "file": "sounds/task-complete-yahoo.mp3",
+          "label": "Yahoo!",
+          "sha256": "36cbd8c23d25e9025ccfbaeec672e3671f752742ab8df8f5f39d0d10e73ab12d"
+        },
+        {
+          "file": "sounds/task-complete-attract-theme.mp3",
+          "label": "Attract theme",
+          "sha256": "e73ffb7df615fec45d7fb9225cc3d1f98f0618af74cb6c8a8175bcb80347d778"
         }
       ]
     },
@@ -134,7 +164,7 @@
       "sounds": [
         {
           "file": "sounds/input-required-door-cue.mp3",
-          "label": "Door cue",
+          "label": "Katamari impact",
           "sha256": "c53b28f516933febe6c6d41bed0206831f2320d02a465f347b5697e5b1370964"
         },
         {
@@ -151,6 +181,11 @@
           "file": "sounds/input-required-horn-prompt.mp3",
           "label": "Horn prompt",
           "sha256": "fa1b2a516bd945fed0ededab66a640d7a3750a9f9eb3941161c441500e3c6a41"
+        },
+        {
+          "file": "sounds/input-required-record-scratch.mp3",
+          "label": "Record scratch",
+          "sha256": "ef41eb2a35e21ca89a157dbe7fbc3da6f69238d3513af4131cf3d1023e9daa0a"
         }
       ]
     },
@@ -176,19 +211,19 @@
     "session.end": {
       "sounds": [
         {
-          "file": "sounds/task-complete-affirming-hmm.mp3",
-          "label": "Affirming mm-hmm",
-          "sha256": "de711e69e766d57234f46ea4a34d11b217ccd886f429559ce5fe26f8acabeda9"
+          "file": "sounds/session-end-stop-that.mp3",
+          "label": "Ooh, stop that.",
+          "sha256": "e01d4ff8ebf4adba2cbdaae3b3807f9b98d3ac9ba048f8fc55bbb36ed1386cff"
         },
         {
-          "file": "sounds/task-complete-fanfare.mp3",
-          "label": "Mini fanfare",
-          "sha256": "2b22009d548908ca991e9b383d012807c1d0cef66992e8ea3d279f125a65c465"
+          "file": "sounds/session-end-ending-yelp.mp3",
+          "label": "Ending yelp",
+          "sha256": "acf07eb470785c3cd88210ac5b7870c7c72572875ddf71e02159faa2072face5"
         },
         {
-          "file": "sounds/task-ack-quick-wow.mp3",
-          "label": "Quick wow",
-          "sha256": "9369b3f50db852d918757a52f8a5764a54efaca95309fba51f31ce156b6de3b7"
+          "file": "sounds/session-end-game-over-sting.mp3",
+          "label": "Game over sting",
+          "sha256": "9ac0a210315df3d774ccfc64432e943a16d9a1d8fe03961a8ce10716d976a79b"
         }
       ]
     }
